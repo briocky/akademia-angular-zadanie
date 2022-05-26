@@ -1,0 +1,29 @@
+.input-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.exercise-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: rgba(82, 39, 39, 0.623);
+  background: rgba(191, 222, 226, 0.349);
+  border-radius: 12px;
+}
+
+#search-bar {
+  padding-left: 2vh;
+  border-radius: 20px;
+  border-width: 1px;
+  height: 7vh;
+  width: 70%;
+  font-size: large;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
