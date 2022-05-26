@@ -1,0 +1,33 @@
+.btn {
+  border-radius: 5px;
+  padding: 1.5vh;
+  text-decoration: none;
+  background: rgba(4, 62, 252, 0.712);
+  color: rgb(243, 235, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover {
+  background: rgba(4, 62, 252, 0.877);
+  border-color: rgb(111, 121, 129);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.exercise-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: rgba(82, 39, 39, 0.623);
+  background: rgba(191, 222, 226, 0.349);
+  border-radius: 12px;
+}
+
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

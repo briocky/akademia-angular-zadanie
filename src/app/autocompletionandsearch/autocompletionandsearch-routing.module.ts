@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AutocompletionandsearchComponent } from './autocompletionandsearch.component';
 
-const routes: Routes = [{ path: '', component: AutocompletionandsearchComponent }];
+const routes: Routes = [
+  { path: '', component: AutocompletionandsearchComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AutocompletionandsearchRoutingModule { }
+export class AutocompletionandsearchRoutingModule {
+  constructor() {}
+}

@@ -4,14 +4,8 @@ import { CommonModule } from '@angular/common';
 import { AutocompletionandsearchRoutingModule } from './autocompletionandsearch-routing.module';
 import { AutocompletionandsearchComponent } from './autocompletionandsearch.component';
 
-
 @NgModule({
-  declarations: [
-    AutocompletionandsearchComponent
-  ],
-  imports: [
-    CommonModule,
-    AutocompletionandsearchRoutingModule
-  ]
+  imports: [CommonModule, AutocompletionandsearchRoutingModule],
+  declarations: [AutocompletionandsearchComponent],
 })
-export class AutocompletionandsearchModule { }
+export class AutocompletionandsearchModule {}

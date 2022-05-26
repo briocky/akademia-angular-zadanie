@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./autocompletionandsearch.component.css'],
 })
 export class AutocompletionandsearchComponent implements OnInit {
-  name = 'ang';
+  name = 'Akademia Angular - zadanie wstępne';
   constructor() {}
 
   ngOnInit(): void {}
