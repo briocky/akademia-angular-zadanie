@@ -1,0 +1,168 @@
+[
+  {
+    "letter": "a",
+    "words": [
+      "a czemu",
+      "a czemu dzisiaj pada?",
+      "a kiedy przestanie padać?",
+      "a kiedy będzie świecić słońce?"
+    ]
+  },
+  {
+    "letter": "b",
+    "words": ["brzydka pogoda", "Bayern Monachium"]
+  },
+  {
+    "letter": "c",
+    "words": [
+      "co",
+      "czemu pada deszcz?",
+      "czego mogę się nauczyć w internecie?",
+      "co mogę zrobić w wolnym czasie?",
+      "czemu nie zawsze mamy dużo energii?",
+      "czemu słońce świeci?"
+    ]
+  },
+  {
+    "letter": "d",
+    "words": [
+      "dlaczego",
+      "dokąd",
+      "dlaczego tak szybko",
+      "dokąd dojadę w 24h?",
+      "do jakiego kraju warto jechać?",
+      "dlaczego warto uczyć się programowania?"
+    ]
+  },
+  {
+    "letter": "e",
+    "words": [
+      "elementarz młodego przedszkolaka",
+      "elektryczny samochód",
+      "ergonomiczne mieszkanie",
+      "ekstra zdrapka",
+      "elektryczna hulajnoga",
+      "elektryczny rower"
+    ]
+  },
+  {
+    "letter": "f",
+    "words": ["frytki z KFC", "francuska wieża"]
+  },
+  {
+    "letter": "g",
+    "words": [
+      "gdzie",
+      "gdzie można pojechać w wakacje?",
+      "gdzie można kupic elektryczny rower?",
+      "gdzie można kupić fajne ubranie?",
+      "gdzie warto napić się kawy?",
+      "gdzie można kupić dobre ciasto?"
+    ]
+  },
+  {
+    "letter": "h",
+    "words": [
+      "hulajnoga elektryczna",
+      "helikopter",
+      "how to query the database?",
+      "how to work smarter?"
+    ]
+  },
+  {
+    "letter": "i",
+    "words": [
+      "introwertyk",
+      "interesujące elementy przyrody",
+      "innowacyjne domy",
+      "innowacyjne gadżety domowe"
+    ]
+  },
+  {
+    "letter": "j",
+    "words": [
+      "jak",
+      "jak się tam dostać",
+      "jak długo czeka się za rejestracją samochodu?",
+      "jak szybko można poruszać się w Berlinie?",
+      "jak często w Rosji pada śnieg?"
+    ]
+  },
+  {
+    "letter": "k",
+    "words": [
+      "kiedy",
+      "kiedy będzie",
+      "kiedy premiera filmu pt. ",
+      "książki, które warto przeczytać",
+      "kawa - czy napewno zdrowa?"
+    ]
+  },
+  {
+    "letter": "l",
+    "words": ["lambda", "ludwik węgierski", "lewandowski"]
+  },
+  {
+    "letter": "m",
+    "words": ["ma", "mieszkania Warszawa", "modne stylizacje", "mazury noclegi"]
+  },
+  {
+    "letter": "n",
+    "words": ["nawet"]
+  },
+  {
+    "letter": "o",
+    "words": [
+      "od kiedy jesteśmy w UE?",
+      "o której średnio kończy się prace?",
+      "od kiedy można jeździć samochodem?"
+    ]
+  },
+  {
+    "letter": "p",
+    "words": ["po co", "po ile godzinach kierowcy muszą zrobić przerwę?"]
+  },
+  {
+    "letter": "q",
+    "words": ["quo vadis H. Sienkiewicz", "query"]
+  },
+  {
+    "letter": "r",
+    "words": ["rolki dla nastolatka", "rower elektryczny", "ramka na zdjecia"]
+  },
+  {
+    "letter": "s",
+    "words": [
+      "skąd",
+      "sienkiewicz ksiązki",
+      "stefan wyszyński osiągnięcia",
+      "stare miasto Warszawa"
+    ]
+  },
+  {
+    "letter": "t",
+    "words": ["to", "ta", "teraz", "tramwaje w Warszawie", "tetris"]
+  },
+  {
+    "letter": "u",
+    "words": ["udemy", "ukraińskie piosenki"]
+  },
+  {
+    "letter": "w",
+    "words": [
+      "właśnie",
+      "w jakim kraju jest największy most?",
+      "w jakim państwie jest najszersza rzeka?"
+    ]
+  },
+  {
+    "letter": "z",
+    "words": [
+      "za",
+      "za co",
+      "z jakiego kraju pochodził Krzysztof Kulomb?",
+      "kto przyprowadził sól do Polski?",
+      "które zwierze jest najszybsze?"
+    ]
+  }
+]

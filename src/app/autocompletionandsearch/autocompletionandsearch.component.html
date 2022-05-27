@@ -1,10 +1,22 @@
 <div class="exercise-title">
-  <h2>{{ name }}</h2>
+  <h2>{{ title }}</h2>
 </div>
 <div class="input-container">
   <p>Proszę wpisać treść wyszukiwania, spróbuję podpowiedzieć i wyszukać:</p>
   <div class="input-container-search-components">
-    <input type="text" id="search-bar" placeholder="Wpisz treść wyszukiwania" />
+    <input
+      type="text"
+      id="search-bar"
+      placeholder="Wpisz treść wyszukiwania"
+      (input)="updateValue($event)"
+    />
     <button type="button" class="btn">Szukaj</button>
+  </div>
+  <div style="width: 80%;" *ngIf="actualLetter !== undefined">
+    <h5>Podpowiedzi:</h5>
+    <ng-container *ngFor="let letterAndWords of lettersAndWords | async">
+      <ng-container *ngIf="letterAndWords.letter === actualLetter">
+      </ng-container>
+    </ng-container>
   </div>
 </div>
