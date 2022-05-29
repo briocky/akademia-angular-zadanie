@@ -58,3 +58,8 @@
   border-width: 1px;
   border-style: solid;
 }
+
+.btn-autocomp {
+  border-radius: 3px;
+  background: rgba(141, 120, 120, 0.685);
+}

@@ -5,17 +5,32 @@
   <p>Proszę wpisać treść wyszukiwania, spróbuję podpowiedzieć i wyszukać:</p>
   <div class="input-container-search-components">
     <input
+      [(ngModel)]="actualText"
       type="text"
       id="search-bar"
       placeholder="Wpisz treść wyszukiwania"
       (input)="updateValue($event)"
+      #searchBar
     />
-    <button type="button" class="btn">Szukaj</button>
+    <button
+      type="button"
+      (click)="goToPage('https://www.google.com/search?q=', searchBar.value)"
+      class="btn"
+    >
+      Szukaj
+    </button>
   </div>
-  <div style="width: 80%;" *ngIf="actualLetter !== undefined">
+  <div style="width: 80%;" *ngIf="actualAutoCompWords">
     <h5>Podpowiedzi:</h5>
-    <ng-container *ngFor="let letterAndWords of lettersAndWords | async">
-      <ng-container *ngIf="letterAndWords.letter === actualLetter">
+    <ng-container *ngFor="let word of actualAutoCompWords">
+      <ng-container *ngIf="word.startsWith(actualText)">
+        <button
+          class="btn-autocomp"
+          type="button"
+          (click)="onAutoCompletionClicked($event)"
+        >
+          {{ word }}
+        </button>
       </ng-container>
     </ng-container>
   </div>
